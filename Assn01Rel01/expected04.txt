@@ -1,0 +1,6 @@
+[kthreadd](2) -- [scsi_eh_0](86)
+[kthreadd](2) -- [scsi_tmf_0](87)
+[kthreadd](2) -- [scsi_eh_1](88)
+[kthreadd](2) -- [scsi_tmf_1](89)
+[kthreadd](2) -- [scsi_eh_2](161)
+[kthreadd](2) -- [scsi_tmf_2](162)
