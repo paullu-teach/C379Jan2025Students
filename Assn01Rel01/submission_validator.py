@@ -74,10 +74,12 @@ def validate_contents(path, all_files, all_conf):
     # Deal with "one of" .c or .cc
     # if(".c" in found_files and ".cc" not in found_files):
     # elif(".cc" in found_files and ".c" not in found_files):
-    if any(".c" in s for s in found_files):
-        specified_files = all_conf["specified_files_c"]
-    elif any(".cc" in s for s in found_files):
+
+    # Check .cc first
+    if any(".cc" in s for s in found_files):
         specified_files = all_conf["specified_files_cc"]
+    elif any(".c" in s for s in found_files):
+        specified_files = all_conf["specified_files_c"]
     else:
         print("*** C/C++ files error")
         exit(-1)
