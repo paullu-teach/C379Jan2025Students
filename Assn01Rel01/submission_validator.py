@@ -75,7 +75,8 @@ def validate_contents(path, all_files, all_conf):
     # if(".c" in found_files and ".cc" not in found_files):
     # elif(".cc" in found_files and ".c" not in found_files):
 
-    # Check .cc first
+    # Hack:  Check .cc first, because .c matches both .cc and .c
+    # https://stackoverflow.com/questions/4843158/how-to-check-if-a-string-is-a-substring-of-items-in-a-list-of-strings
     if any(".cc" in s for s in found_files):
         specified_files = all_conf["specified_files_cc"]
     elif any(".c" in s for s in found_files):
