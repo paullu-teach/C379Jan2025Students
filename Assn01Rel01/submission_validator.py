@@ -13,7 +13,8 @@ import argparse
 
 conf = {
     "submission_name": "assn01",
-    "specified_files": [ "assn01/psnotify.c", "assn01/Makefile"],
+    "specified_files_c": [ "assn01/psnotify.c", "assn01/Makefile"],
+    "specified_files_cc": [ "assn01/psnotify.cc", "assn01/Makefile"],
     "assignment_version": "Assignment #1 2025",
 }
 
@@ -34,7 +35,8 @@ def get_contents_archive(path):
         print("*** Error:  Incorrect archive, file extension")
         exit(1)
 
-def validate_contents(path, all_files, specified_files, all_conf):
+# def validate_contents(path, all_files, specified_files, all_conf):
+def validate_contents(path, all_files, all_conf):
     found_files = []
     okextra_files = []
     notokextra_files = []
@@ -69,6 +71,17 @@ def validate_contents(path, all_files, specified_files, all_conf):
             continue
         found_files.append(f)
 
+    # Deal with "one of" .c or .cc
+    # if(".c" in found_files and ".cc" not in found_files):
+    # elif(".cc" in found_files and ".c" not in found_files):
+    if any(".c" in s for s in found_files):
+        specified_files = all_conf["specified_files_c"]
+    elif any(".cc" in s for s in found_files):
+        specified_files = all_conf["specified_files_cc"]
+    else:
+        print("*** C/C++ files error")
+        exit(-1)
+
     specified_files.sort()
     found_files.sort()
     okextra_files.sort()
@@ -94,7 +107,7 @@ def validate_submission(path):
     print("=== CMPUT 379 {} Validator ===".format(conf["assignment_version"]))
 
     names_list = get_contents_archive(path)
-    ret = validate_contents(path, names_list, conf["specified_files"], conf)
+    ret = validate_contents(path, names_list, conf)
     if(ret == True):
         print("File structure appears to be correct.")
         print("\nVALIDATION SUCCEEDED.")
