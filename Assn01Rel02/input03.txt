@@ -1,0 +1,179 @@
+      1       0 root     /sbin/init
+      3       2 root     [rcu_gp]
+      4       2 root     [rcu_par_gp]
+      6       2 root     [kworker/0:0H-kblockd]
+      8       2 root     [mm_percpu_wq]
+      9       2 root     [ksoftirqd/0]
+     10       2 root     [rcu_sched]
+     11       2 root     [migration/0]
+     12       2 root     [idle_inject/0]
+     14       2 root     [cpuhp/0]
+     15       2 root     [kdevtmpfs]
+     16       2 root     [netns]
+     17       2 root     [rcu_tasks_kthre]
+     18       2 root     [kauditd]
+     19       2 root     [khungtaskd]
+     20       2 root     [oom_reaper]
+     21       2 root     [writeback]
+     22       2 root     [kcompactd0]
+     23       2 root     [ksmd]
+     24       2 root     [khugepaged]
+     70       2 root     [kintegrityd]
+     71       2 root     [kblockd]
+     72       2 root     [blkcg_punt_bio]
+     73       2 root     [tpm_dev_wq]
+     74       2 root     [ata_sff]
+     75       2 root     [md]
+     76       2 root     [edac-poller]
+     77       2 root     [devfreq_wq]
+     78       2 root     [watchdogd]
+     81       2 root     [kswapd0]
+     82       2 root     [ecryptfs-kthrea]
+     84       2 root     [kthrotld]
+     85       2 root     [acpi_thermal_pm]
+     86       2 root     [scsi_eh_0]
+     87       2 root     [scsi_tmf_0]
+     88       2 root     [scsi_eh_1]
+     89       2 root     [scsi_tmf_1]
+     91       2 root     [vfio-irqfd-clea]
+     92       2 root     [ipv6_addrconf]
+    101       2 root     [kstrp]
+    104       2 root     [kworker/u3:0]
+    119       2 root     [charger_manager]
+    161       2 root     [scsi_eh_2]
+    162       2 root     [scsi_tmf_2]
+    164       2 root     [kworker/0:1H-kblockd]
+    165       2 root     [kworker/u2:3-events_power_efficient]
+    175       2 root     [cryptd]
+    191       2 root     [ttm_swap]
+    232       2 root     [raid5wq]
+    276       2 root     [jbd2/sda1-8]
+    277       2 root     [ext4-rsv-conver]
+    352       1 root     /lib/systemd/systemd-journald
+    379       2 root     [kworker/0:4-events]
+    386       1 root     /lib/systemd/systemd-udevd
+    515       2 root     [kaluad]
+    516       2 root     [kmpath_rdacd]
+    517       2 root     [kmpathd]
+    518       2 root     [kmpath_handlerd]
+    519       1 root     /sbin/multipathd -d -s
+    528       2 root     [loop0]
+    533       2 root     [loop1]
+    537       2 root     [loop2]
+    540       2 root     [loop3]
+    542       2 root     [loop4]
+    543       2 root     [loop5]
+    544       2 root     [loop6]
+    547       2 root     [loop7]
+    562       1 systemd+ /lib/systemd/systemd-timesyncd
+    629       1 systemd+ /lib/systemd/systemd-networkd
+    631       1 systemd+ /lib/systemd/systemd-resolved
+    666       1 root     /usr/lib/accountsservice/accounts-daemon
+    667       1 root     /usr/sbin/acpid
+    669       1 avahi    avahi-daemon: running [gui.local]
+    671       1 message+ /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    672       1 root     /usr/sbin/NetworkManager --no-daemon
+    680       1 root     /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+    681       1 root     /usr/lib/policykit-1/polkitd --no-debug
+    683       1 syslog   /usr/sbin/rsyslogd -n -iNONE
+    685       1 root     /usr/lib/snapd/snapd
+    686       1 root     /usr/libexec/switcheroo-control
+    687       1 root     /lib/systemd/systemd-logind
+    688       1 root     /usr/lib/udisks2/udisksd
+    689       1 root     /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+    704     669 avahi    avahi-daemon: chroot helper
+    746       1 root     /usr/sbin/cups-browsed
+    750       1 root     /usr/sbin/ModemManager
+    764       1 root     /usr/sbin/xrdp-sesman
+    782       1 root     /usr/sbin/cupsd -l
+    790       1 root     /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+    794       1 xrdp     /usr/sbin/xrdp
+    824       1 root     /usr/sbin/cron -f
+    829       1 whoopsie /usr/bin/whoopsie -f
+    830       1 daemon   /usr/sbin/atd -f
+    831       1 kernoops /usr/sbin/kerneloops --test
+    836       1 root     /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+    841       1 kernoops /usr/sbin/kerneloops
+    846       1 root     sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    847       1 root     /usr/sbin/gdm3
+    855     847 root     gdm-session-worker [pam/gdm-launch-environment]
+    863       1 gdm      /lib/systemd/systemd --user
+    864     863 gdm      (sd-pam)
+    871     863 gdm      /usr/bin/pulseaudio --daemonize=no --log-target=journal
+    873     863 gdm      /usr/libexec/tracker-miner-fs
+    874     855 gdm      /usr/lib/gdm3/gdm-wayland-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+    876     863 gdm      /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    878     874 gdm      dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+    879     878 gdm      dbus-daemon --nofork --print-address 4 --session
+    881     878 gdm      /usr/libexec/gnome-session-binary --systemd --autostart /usr/share/gdm/greeter/autostart
+    885       1 rtkit    /usr/libexec/rtkit-daemon
+    888     863 gdm      /usr/libexec/gvfsd
+    896     863 gdm      /usr/libexec/gvfsd-fuse /run/user/129/gvfs -f -o big_writes
+    931     863 gdm      /usr/libexec/gvfs-udisks2-volume-monitor
+    942     863 gdm      /usr/libexec/gvfs-goa-volume-monitor
+    946     881 gdm      /usr/bin/gnome-shell
+    948     863 gdm      /usr/libexec/goa-daemon
+    965     863 gdm      /usr/libexec/goa-identity-service
+    971     863 gdm      /usr/libexec/gvfs-mtp-volume-monitor
+    975     863 gdm      /usr/libexec/gvfs-afc-volume-monitor
+    980     863 gdm      /usr/libexec/gvfs-gphoto2-volume-monitor
+    985       1 root     /usr/lib/upower/upowerd
+   1008     846 root     sshd: ubuntu [priv]
+   1019       1 gdm      /usr/libexec/at-spi-bus-launcher
+   1024    1019 gdm      /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+   1028     946 gdm      /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/129/.mutter-Xwaylandauth.0LP4Z2 -listen 4 -listen 5 -displayfd 6 -listen 7
+   1030       1 ubuntu   /lib/systemd/systemd --user
+   1031    1030 ubuntu   (sd-pam)
+   1039    1030 ubuntu   /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   1041    1030 ubuntu   /usr/libexec/tracker-miner-fs
+   1051    1030 ubuntu   /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1165    1030 ubuntu   /usr/libexec/gvfsd
+   1175    1030 ubuntu   /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+   1203    1030 ubuntu   /usr/libexec/gvfs-udisks2-volume-monitor
+   1276    1008 ubuntu   sshd: ubuntu@notty
+   1281       1 gdm      /usr/libexec/xdg-permission-store
+   1285    1030 ubuntu   /usr/libexec/gvfs-goa-volume-monitor
+   1297    1030 ubuntu   /usr/libexec/goa-daemon
+   1323    1030 ubuntu   /usr/libexec/goa-identity-service
+   1326     846 root     sshd: ubuntu [priv]
+   1330    1030 ubuntu   /usr/libexec/gvfs-mtp-volume-monitor
+   1337    1030 ubuntu   /usr/libexec/gvfs-afc-volume-monitor
+   1345       1 gdm      /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   1346       1 gdm      /usr/libexec/at-spi2-registryd --use-gnome-session
+   1350     881 gdm      /usr/libexec/gsd-sharing
+   1351     881 gdm      /usr/libexec/gsd-wacom
+   1354     881 gdm      /usr/libexec/gsd-color
+   1356     881 gdm      /usr/libexec/gsd-keyboard
+   1359     881 gdm      /usr/libexec/gsd-print-notifications
+   1364     881 gdm      /usr/libexec/gsd-rfkill
+   1365     881 gdm      /usr/libexec/gsd-smartcard
+   1367     881 gdm      /usr/libexec/gsd-datetime
+   1370     881 gdm      /usr/libexec/gsd-media-keys
+   1372     881 gdm      /usr/libexec/gsd-screensaver-proxy
+   1374     881 gdm      /usr/libexec/gsd-sound
+   1376     881 gdm      /usr/libexec/gsd-a11y-settings
+   1380     881 gdm      /usr/libexec/gsd-housekeeping
+   1385     881 gdm      /usr/libexec/gsd-power
+   1446       1 gdm      /usr/libexec/gsd-printer
+   1514    1030 ubuntu   /usr/libexec/gvfs-gphoto2-volume-monitor
+   1530    1326 ubuntu   sshd: ubuntu@notty
+   1565     946 gdm      ibus-daemon --panel disable -r --xim
+   1573    1565 gdm      /usr/libexec/ibus-memconf
+   1576       1 gdm      /usr/libexec/ibus-x11 --kill-daemon
+   1580       1 gdm      /usr/libexec/ibus-portal
+   1589    1530 root     sudo env LD_LIBRARY_PATH=/snap/multipass-sshfs/145/lib /snap/multipass-sshfs/145/bin/sshfs -o slave -o transform_symlinks -o allow_other -o Compression=no -o dcache_timeout=3 :/Users/paullu/C274vm /home/ubuntu/Host/.
+   1590       1 colord   /usr/libexec/colord
+   1594    1589 root     /snap/multipass-sshfs/145/bin/sshfs -o slave -o transform_symlinks -o allow_other -o Compression=no -o dcache_timeout=3 :/Users/paullu/C274vm /home/ubuntu/Host/.
+   1612    1565 gdm      /usr/libexec/ibus-engine-simple
+   2000       2 root     [kworker/u2:1-events_unbound]
+   2015       2 root     [kworker/0:0-events]
+   2021     846 root     sshd: ubuntu [priv]
+   2111    2021 ubuntu   sshd: ubuntu@pts/0
+   2112    2111 ubuntu   -bash
+   2       0 root     [kthreadd]
+   2755       2 root     [kworker/u2:0]
+   2774       2 root     [kworker/0:1]
+   2784    1030 ubuntu   /usr/libexec/tracker-store
+   2790    2112 ubuntu   make capture
+   2791    2790 ubuntu   /bin/sh -c ps -eo pid=,ppid=,user=,args= > out.X
+   2792    2791 ubuntu   ps -eo pid=,ppid=,user=,args=

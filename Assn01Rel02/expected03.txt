@@ -1,0 +1,6 @@
+/sbin/init(1) -- /usr/sbin/cups-browsed(746)
+/sbin/init(1) -- /usr/sbin/cupsd(782)
+/sbin/init(1) -- /usr/bin/whoopsie(829)
+/sbin/init(1) -- /usr/sbin/kerneloops(831)
+/sbin/init(1) -- /usr/sbin/kerneloops(841)
+/bin/sh(2791) -- ps(2792)
