@@ -1,0 +1,10 @@
+N=1
+<IP1>::/snap/code/187/usr/share/code/code(6471) -- /usr/bin/bash(6569)
+<IP1>::/snap/code/187/usr/share/code/code(6471) -- /usr/bin/bash(6573)
+<IP2>::/snap/code/187/usr/share/code/code(6471) -- /usr/bin/bash(6569)
+<IP2>::/snap/code/187/usr/share/code/code(6471) -- /usr/bin/bash(6573)
+N=2
+<IP1>::/snap/code/187/usr/share/code/code(6471) -- /usr/bin/bash(6569)
+<IP1>::/snap/code/187/usr/share/code/code(6471) -- /usr/bin/bash(6573)
+<IP2>::/snap/code/187/usr/share/code/code(6471) -- /usr/bin/bash(6569)
+<IP2>::/snap/code/187/usr/share/code/code(6471) -- /usr/bin/bash(6573)

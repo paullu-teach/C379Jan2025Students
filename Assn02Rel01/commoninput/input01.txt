@@ -1,0 +1,411 @@
+      1       0 root     /sbin/init splash
+      2       0 root     [kthreadd]
+      3       2 root     [pool_workqueue_release]
+      4       2 root     [kworker/R-rcu_g]
+      5       2 root     [kworker/R-rcu_p]
+      6       2 root     [kworker/R-slub_]
+      7       2 root     [kworker/R-netns]
+      9       2 root     [kworker/0:0H-events_highpri]
+     12       2 root     [kworker/R-mm_pe]
+     13       2 root     [rcu_tasks_kthread]
+     14       2 root     [rcu_tasks_rude_kthread]
+     15       2 root     [rcu_tasks_trace_kthread]
+     16       2 root     [ksoftirqd/0]
+     17       2 root     [rcu_preempt]
+     18       2 root     [migration/0]
+     19       2 root     [idle_inject/0]
+     20       2 root     [cpuhp/0]
+     21       2 root     [cpuhp/1]
+     22       2 root     [idle_inject/1]
+     23       2 root     [migration/1]
+     24       2 root     [ksoftirqd/1]
+     26       2 root     [kworker/1:0H-events_highpri]
+     27       2 root     [cpuhp/2]
+     28       2 root     [idle_inject/2]
+     29       2 root     [migration/2]
+     30       2 root     [ksoftirqd/2]
+     31       2 root     [kworker/2:0-events]
+     32       2 root     [kworker/2:0H-events_highpri]
+     33       2 root     [cpuhp/3]
+     34       2 root     [idle_inject/3]
+     35       2 root     [migration/3]
+     36       2 root     [ksoftirqd/3]
+     37       2 root     [kworker/3:0-events]
+     38       2 root     [kworker/3:0H-events_highpri]
+     39       2 root     [cpuhp/4]
+     40       2 root     [idle_inject/4]
+     41       2 root     [migration/4]
+     42       2 root     [ksoftirqd/4]
+     43       2 root     [kworker/4:0-mm_percpu_wq]
+     44       2 root     [kworker/4:0H-events_highpri]
+     45       2 root     [cpuhp/5]
+     46       2 root     [idle_inject/5]
+     47       2 root     [migration/5]
+     48       2 root     [ksoftirqd/5]
+     50       2 root     [kworker/5:0H-events_highpri]
+     51       2 root     [cpuhp/6]
+     52       2 root     [idle_inject/6]
+     53       2 root     [migration/6]
+     54       2 root     [ksoftirqd/6]
+     56       2 root     [kworker/6:0H-events_highpri]
+     57       2 root     [cpuhp/7]
+     58       2 root     [idle_inject/7]
+     59       2 root     [migration/7]
+     60       2 root     [ksoftirqd/7]
+     61       2 root     [kworker/7:0-events]
+     62       2 root     [kworker/7:0H-events_highpri]
+     63       2 root     [cpuhp/8]
+     64       2 root     [idle_inject/8]
+     65       2 root     [migration/8]
+     66       2 root     [ksoftirqd/8]
+     68       2 root     [kworker/8:0H-events_highpri]
+     69       2 root     [cpuhp/9]
+     70       2 root     [idle_inject/9]
+     71       2 root     [migration/9]
+     72       2 root     [ksoftirqd/9]
+     74       2 root     [kworker/9:0H-events_highpri]
+     75       2 root     [cpuhp/10]
+     76       2 root     [idle_inject/10]
+     77       2 root     [migration/10]
+     78       2 root     [ksoftirqd/10]
+     80       2 root     [kworker/10:0H-events_highpri]
+     81       2 root     [cpuhp/11]
+     82       2 root     [idle_inject/11]
+     83       2 root     [migration/11]
+     84       2 root     [ksoftirqd/11]
+     86       2 root     [kworker/11:0H-events_highpri]
+     87       2 root     [cpuhp/12]
+     88       2 root     [idle_inject/12]
+     89       2 root     [migration/12]
+     90       2 root     [ksoftirqd/12]
+     92       2 root     [kworker/12:0H-events_highpri]
+     93       2 root     [cpuhp/13]
+     94       2 root     [idle_inject/13]
+     95       2 root     [migration/13]
+     96       2 root     [ksoftirqd/13]
+     98       2 root     [kworker/13:0H-events_highpri]
+     99       2 root     [cpuhp/14]
+    100       2 root     [idle_inject/14]
+    101       2 root     [migration/14]
+    102       2 root     [ksoftirqd/14]
+    104       2 root     [kworker/14:0H-events_highpri]
+    105       2 root     [cpuhp/15]
+    106       2 root     [idle_inject/15]
+    107       2 root     [migration/15]
+    108       2 root     [ksoftirqd/15]
+    110       2 root     [kworker/15:0H-events_highpri]
+    111       2 root     [kdevtmpfs]
+    112       2 root     [kworker/R-inet_]
+    113       2 root     [kauditd]
+    115       2 root     [khungtaskd]
+    116       2 root     [oom_reaper]
+    118       2 root     [kworker/R-write]
+    119       2 root     [kcompactd0]
+    120       2 root     [ksmd]
+    122       2 root     [khugepaged]
+    123       2 root     [kworker/R-kinte]
+    124       2 root     [kworker/R-kbloc]
+    125       2 root     [kworker/R-blkcg]
+    126       2 root     [irq/9-acpi]
+    128       2 root     [kworker/1:1-events]
+    129       2 root     [kworker/R-tpm_d]
+    130       2 root     [kworker/R-ata_s]
+    131       2 root     [kworker/R-md]
+    132       2 root     [kworker/R-md_bi]
+    133       2 root     [kworker/R-edac-]
+    134       2 root     [kworker/R-devfr]
+    135       2 root     [watchdogd]
+    136       2 root     [kworker/0:1H-events_highpri]
+    138       2 root     [kswapd0]
+    139       2 root     [ecryptfs-kthread]
+    140       2 root     [kworker/R-kthro]
+    141       2 root     [kworker/R-acpi_]
+    144       2 root     [hwrng]
+    155       2 root     [kworker/R-mld]
+    156       2 root     [kworker/2:1H-events_highpri]
+    157       2 root     [kworker/R-ipv6_]
+    164       2 root     [kworker/R-kstrp]
+    180       2 root     [kworker/R-charg]
+    199       2 root     [kworker/14:1H-events_highpri]
+    203       2 root     [kworker/8:1H-kblockd]
+    204       2 root     [kworker/11:1H]
+    221       2 root     [kworker/10:1H-events_highpri]
+    228       2 root     [kworker/1:1H-kblockd]
+    229       2 root     [kworker/15:1H-events_highpri]
+    230       2 root     [kworker/13:1H-events_highpri]
+    231       2 root     [kworker/12:1H-kblockd]
+    232       2 root     [kworker/3:1H-events_highpri]
+    233       2 root     [kworker/9:1H-kblockd]
+    237       2 root     [kworker/4:1H-kblockd]
+    238       2 root     [kworker/5:1H-kblockd]
+    239       2 root     [kworker/6:1H-events_highpri]
+    241       2 root     [kworker/7:1H-kblockd]
+    256       2 root     [kworker/9:2-mm_percpu_wq]
+    269       2 root     [scsi_eh_0]
+    270       2 root     [kworker/R-scsi_]
+    271       2 root     [scsi_eh_1]
+    272       2 root     [kworker/R-scsi_]
+    273       2 root     [scsi_eh_2]
+    274       2 root     [kworker/R-scsi_]
+    289       2 root     [kworker/R-nvme-]
+    290       2 root     [kworker/R-nvme-]
+    291       2 root     [kworker/R-nvme-]
+    292       2 root     [kworker/R-nvme-]
+    293       2 root     [irq/143-PNP0C50:00]
+    317       2 root     [jbd2/nvme0n1p2-8]
+    318       2 root     [kworker/R-ext4-]
+    358       1 root     /lib/systemd/systemd-journald
+    380       2 root     [kworker/15:2-inet_frag_wq]
+    418       1 root     /lib/systemd/systemd-udevd
+    520       2 root     [irq/154-mei_me]
+    526       2 root     [kworker/R-cfg80]
+    555       2 root     [irq/155-iwlwifi:default_queue]
+    556       2 root     [irq/156-iwlwifi:queue_1]
+    557       2 root     [irq/157-iwlwifi:queue_2]
+    558       2 root     [irq/158-iwlwifi:queue_3]
+    559       2 root     [irq/159-iwlwifi:queue_4]
+    560       2 root     [irq/160-iwlwifi:queue_5]
+    561       2 root     [irq/161-iwlwifi:queue_6]
+    562       2 root     [irq/162-iwlwifi:queue_7]
+    563       2 root     [irq/163-iwlwifi:queue_8]
+    564       2 root     [irq/164-iwlwifi:queue_9]
+    565       2 root     [irq/165-iwlwifi:queue_10]
+    566       2 root     [irq/166-iwlwifi:queue_11]
+    567       2 root     [irq/167-iwlwifi:queue_12]
+    568       2 root     [irq/168-iwlwifi:queue_13]
+    569       2 root     [irq/169-iwlwifi:queue_14]
+    570       2 root     [irq/170-iwlwifi:exception]
+    571       2 root     [kworker/R-crypt]
+    613       2 root     [kworker/2:2-mm_percpu_wq]
+    641       1 systemd+ /lib/systemd/systemd-oomd
+    643       1 systemd+ /lib/systemd/systemd-resolved
+    644       1 systemd+ /lib/systemd/systemd-timesyncd
+    656       2 root     [kworker/R-ttm]
+    657       2 root     [nv_queue]
+    658       2 root     [nv_queue]
+    659       2 root     [nv_open_q]
+    663       2 root     [card1-crtc0]
+    664       2 root     [card1-crtc1]
+    666       2 root     [card1-crtc2]
+    667       2 root     [card1-crtc3]
+    673       2 root     [nvidia-modeset/kthread_q]
+    674       2 root     [nvidia-modeset/deferred_close_kthread_q]
+    681       2 root     [irq/172-nvidia]
+    682       2 root     [nvidia]
+    683       2 root     [nv_queue]
+    730       1 root     /usr/libexec/accounts-daemon
+    731       1 root     /usr/sbin/acpid
+    733       1 avahi    avahi-daemon: running [hamid-Katana-GF66-11UG.local]
+    734       1 root     /usr/lib/bluetooth/bluetoothd
+    736       1 root     /usr/sbin/cron -f -P
+    737       1 message+ @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    739       1 root     /usr/sbin/NetworkManager --no-daemon
+    745       1 root     /usr/sbin/irqbalance --foreground
+    748       1 root     /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+    751       1 root     /usr/libexec/polkitd --no-debug
+    753       1 root     /usr/libexec/power-profiles-daemon
+    755       1 syslog   /usr/sbin/rsyslogd -n -iNONE
+    762       1 root     /usr/lib/snapd/snapd
+    765       1 root     /usr/libexec/switcheroo-control
+    766       1 root     /lib/systemd/systemd-logind
+    768       1 root     /usr/sbin/thermald --systemd --dbus-enable --adaptive
+    769       1 root     /usr/libexec/udisks2/udisksd
+    770       1 root     /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+    776     733 avahi    avahi-daemon: chroot helper
+    827       1 root     /usr/sbin/ModemManager
+    845       1 root     /usr/sbin/cupsd -l
+    849       1 root     /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+    862       1 root     sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    877       2 root     [kworker/10:2-mm_percpu_wq]
+    888       1 root     /usr/libexec/upowerd
+    932       2 root     [irq/173-AudioDSP]
+   1132       1 root     /usr/sbin/gdm3
+   1146       2 root     [UVM global queue]
+   1147       2 root     [UVM deferred release queue]
+   1149       2 root     [UVM Tools Event Queue]
+   1162       1 nvidia-+ /usr/bin/nvidia-persistenced --user nvidia-persistenced --no-persistence-mode --verbose
+   1240       1 rtkit    /usr/libexec/rtkit-daemon
+   1537       1 root     /usr/libexec/packagekitd
+   1672       1 colord   /usr/libexec/colord
+   1778       2 root     [kworker/14:3-events]
+   1779       1 root     /usr/sbin/cups-browsed
+   1782       1 kernoops /usr/sbin/kerneloops --test
+   1784       1 kernoops /usr/sbin/kerneloops
+   1805    1132 root     gdm-session-worker [pam/gdm-password]
+   1810       1 hamid    /lib/systemd/systemd --user
+   1811    1810 hamid    (sd-pam)
+   1817    1810 hamid    /usr/bin/pipewire
+   1818    1810 hamid    /usr/bin/pipewire-media-session
+   1819    1810 hamid    /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   1845       1 hamid    /usr/bin/gnome-keyring-daemon --daemonize --login
+   1850    1810 hamid    /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1852    1810 hamid    /usr/libexec/xdg-document-portal
+   1855    1810 hamid    /usr/libexec/xdg-permission-store
+   1861    1852 root     fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   1883       2 root     [krfcommd]
+   1913    1805 hamid    /usr/libexec/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+   1915    1913 hamid    /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+   1998    1810 hamid    /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+   2056    1998 hamid    /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+   2058    1913 hamid    /usr/libexec/gnome-session-binary --session=ubuntu
+   2130    1810 hamid    /usr/libexec/at-spi-bus-launcher
+   2136    2130 hamid    /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_1
+   2184    1810 hamid    /usr/libexec/gnome-session-ctl --monitor
+   2194    1810 hamid    /usr/libexec/gvfsd
+   2200    1810 hamid    /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   2206    1810 hamid    /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   2215    1810 hamid    /usr/libexec/xdg-desktop-portal
+   2224    1810 hamid    /usr/libexec/xdg-desktop-portal-gnome
+   2237    1810 hamid    /usr/bin/gnome-shell
+   2313    1810 hamid    /usr/libexec/xdg-desktop-portal-gtk
+   2318    1810 hamid    /usr/libexec/at-spi2-registryd --use-gnome-session
+   2320    1810 hamid    /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+   2365    1810 hamid    /usr/libexec/gnome-shell-calendar-server
+   2373    1810 hamid    /usr/libexec/evolution-source-registry
+   2377    1810 hamid    /usr/libexec/dconf-service
+   2382    1810 hamid    /usr/libexec/goa-daemon
+   2383    1810 hamid    /usr/libexec/gvfs-udisks2-volume-monitor
+   2388    1810 hamid    /usr/libexec/gvfs-mtp-volume-monitor
+   2389    1810 hamid    /usr/libexec/gvfsd-metadata
+   2395    1810 hamid    /usr/libexec/gvfs-gphoto2-volume-monitor
+   2401    1810 hamid    /usr/libexec/evolution-calendar-factory
+   2405    1810 hamid    /usr/libexec/gvfs-goa-volume-monitor
+   2416    1810 hamid    /usr/libexec/goa-identity-service
+   2420    1810 hamid    /usr/libexec/gvfs-afc-volume-monitor
+   2441    1810 hamid    /usr/libexec/evolution-addressbook-factory
+   2455    2194 hamid    /usr/libexec/gvfsd-trash --spawner :1.19 /org/gtk/gvfs/exec_spaw/0
+   2463    1810 hamid    /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   2482    1810 hamid    sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+   2483    1810 hamid    /usr/libexec/gsd-a11y-settings
+   2485    2482 hamid    /usr/bin/ibus-daemon --panel disable --xim
+   2486    1810 hamid    /usr/libexec/gsd-color
+   2488    1810 hamid    /usr/libexec/gsd-datetime
+   2489    1810 hamid    /usr/libexec/gsd-housekeeping
+   2492    1810 hamid    /usr/libexec/gsd-keyboard
+   2495    1810 hamid    /usr/libexec/gsd-media-keys
+   2498    1810 hamid    /usr/libexec/gsd-power
+   2502    1810 hamid    /usr/libexec/gsd-print-notifications
+   2504    1810 hamid    /usr/libexec/gsd-rfkill
+   2505    1810 hamid    /usr/libexec/gsd-screensaver-proxy
+   2507    1810 hamid    /usr/libexec/gsd-sharing
+   2509    1810 hamid    /usr/libexec/gsd-smartcard
+   2511    1810 hamid    /usr/libexec/gsd-sound
+   2515    1810 hamid    /usr/libexec/gsd-wacom
+   2517    1810 hamid    /usr/libexec/gsd-xsettings
+   2531    2206 hamid    /usr/libexec/evolution-data-server/evolution-alarm-notify
+   2533    2206 hamid    /usr/libexec/gsd-disk-utility-notify
+   2569    2485 hamid    /usr/libexec/ibus-memconf
+   2571    2485 hamid    /usr/libexec/ibus-extension-gtk3
+   2576    1810 hamid    /usr/libexec/ibus-x11 --kill-daemon
+   2578    1810 hamid    /usr/libexec/ibus-portal
+   2605    1810 hamid    /usr/libexec/gsd-printer
+   2608    1810 hamid    /snap/snap-store/1216/usr/bin/snap-store --gapplication-service
+   2718    2485 hamid    /usr/libexec/ibus-engine-simple
+   2723    1810 hamid    /usr/libexec/tracker-miner-fs-3
+   2860       1 root     /usr/libexec/fwupd/fwupd
+   2872    2237 hamid    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:60:0:0:0
+   4043       2 root     [kworker/6:3-inet_frag_wq]
+   4050    2237 hamid    /snap/spotify/84/usr/share/spotify/spotify
+   4141    4050 hamid    /snap/spotify/84/usr/share/spotify/spotify --type=zygote --no-zygote-sandbox --no-sandbox --string-annotations --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/hamid/snap/spotify/common/.cache/spotify --log-severity=disable --user-agent-product=Chrome/131.0.6778.109 Spotify/1.2.56.502
+   4142    4050 hamid    /snap/spotify/84/usr/share/spotify/spotify --type=zygote --no-sandbox --string-annotations --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/hamid/snap/spotify/common/.cache/spotify --log-severity=disable --user-agent-product=Chrome/131.0.6778.109 Spotify/1.2.56.502
+   4177    4141 hamid    /snap/spotify/84/usr/share/spotify/spotify --type=gpu-process --no-sandbox --string-annotations --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/hamid/snap/spotify/common/.cache/spotify --log-severity=disable --user-agent-product=Chrome/131.0.6778.109 Spotify/1.2.56.502 --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,14537908495225499801,14947338104704597095,262144 --disable-features=BackForwardCache,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+   4181    4050 hamid    /snap/spotify/84/usr/share/spotify/spotify --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/hamid/snap/spotify/common/.cache/spotify --log-severity=disable --user-agent-product=Chrome/131.0.6778.109 Spotify/1.2.56.502 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14537908495225499801,14947338104704597095,262144 --disable-features=BackForwardCache,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+   4191    4142 hamid    /snap/spotify/84/usr/share/spotify/spotify --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --no-sandbox --string-annotations --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/hamid/snap/spotify/common/.cache/spotify --log-severity=disable --user-agent-product=Chrome/131.0.6778.109 Spotify/1.2.56.502 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14537908495225499801,14947338104704597095,262144 --disable-features=BackForwardCache,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+   4284    4142 hamid    /snap/spotify/84/usr/share/spotify/spotify --type=renderer --string-annotations --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/hamid/snap/spotify/common/.cache/spotify --log-severity=disable --user-agent-product=Chrome/131.0.6778.109 Spotify/1.2.56.502 --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1742509499082810 --launch-time-ticks=112960672 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14537908495225499801,14947338104704597095,262144 --disable-features=BackForwardCache,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+   4296    2206 hamid    update-notifier
+   4507    1810 hamid    /snap/slack/188/usr/lib/slack/slack --no-sandbox --executed-from=/home/hamid --pid=4406
+   4510    4507 hamid    /snap/slack/188/usr/lib/slack/slack --type=zygote --no-zygote-sandbox --no-sandbox
+   4511    4507 hamid    /snap/slack/188/usr/lib/slack/slack --type=zygote --no-sandbox
+   4527    1810 hamid    /snap/slack/188/usr/lib/slack/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-upload-gzip --database=/home/hamid/snap/slack/188/.config/Slack/Crashpad --url=https://slack.com/apps/sentryproxy/api/5277886/minidump/?sentry_key=fd30fe469dbf4aec9db40548e5acf91e --annotation=_productName=Slack --annotation=_version=4.43.43 --annotation=lsb-release=Ubuntu Core 20 --annotation=plat=Linux --annotation=prod=Electron --annotation=sentry___initialScope={"release":"Slack@4.43.43","environment":"production","user":{"id":"db262e10-58d9-477c-a8c1-c7ce2bfb7018"},"tags":{"uuid":"db262e10-58d9-477c-a8c1-c7ce2bfb7018"},"extra":{"sessionId":"ZGIyNjJlMTAtNThkOS00NzdjLWE4YzEtYzdjZTJiZmI3MDE4XzE3NDI1MDk2MTgwNzY="}} --annotation=ver=35.0.0 --initial-client-fd=39 --shared-client-connection
+   4557    4510 hamid    /snap/slack/188/usr/lib/slack/slack --type=zygote --no-zygote-sandbox --no-sandbox
+   4589    4507 hamid    /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=4527 --enable-crash-reporter=38893218-de96-41b9-8311-9c1c491bf812,no_channel --user-data-dir=/home/hamid/snap/slack/188/.config/Slack --standard-schemes=app,slack-webapp-dev --secure-schemes=app,slack-webapp-dev --bypasscsp-schemes=slack-webapp-dev --cors-schemes=slack-webapp-dev --fetch-schemes=slack-webapp-dev --service-worker-schemes=slack-webapp-dev --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,5704825714842721392,8034801442428757010,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,PdfUseShowSaveFilePicker,WebRTCPipeWireCapturer --disable-features=AllowAggressiveThrottlingWithWebSocket,CalculateNativeWinOcclusion,EnableWatermarkView,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,LogJsConsoleMessages,PostQuantumKyber,RequestInitiatorSiteLockEnfocement,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+   4630    1810 hamid    /usr/bin/snap userd
+   4649    4511 hamid    /snap/slack/188/usr/lib/slack/slack --type=zygote --no-sandbox
+   4677    4507 hamid    /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=4527 --enable-crash-reporter=38893218-de96-41b9-8311-9c1c491bf812,no_channel --user-data-dir=/home/hamid/snap/slack/188/.config/Slack --standard-schemes=app,slack-webapp-dev --secure-schemes=app,slack-webapp-dev --bypasscsp-schemes=slack-webapp-dev --cors-schemes=slack-webapp-dev --fetch-schemes=slack-webapp-dev --service-worker-schemes=slack-webapp-dev --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,5704825714842721392,8034801442428757010,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,PdfUseShowSaveFilePicker,WebRTCPipeWireCapturer --disable-features=AllowAggressiveThrottlingWithWebSocket,CalculateNativeWinOcclusion,EnableWatermarkView,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,LogJsConsoleMessages,PostQuantumKyber,RequestInitiatorSiteLockEnfocement,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+   4696    2237 hamid    /snap/firefox/5836/usr/lib/firefox/firefox
+   4897    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -parentBuildID 20250303231545 -prefsHandle 0 -prefsLen 33472 -prefMapHandle 1 -prefMapSize 264340 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {7e7a2214-7f55-4ad9-b0ed-a0494bcc2b57} -parentPid 4696 -crashReporter 5 -appDir /snap/firefox/5836/usr/lib/firefox/browser 1 socket
+   4935    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 33662 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {29fd828a-ef54-4435-aed0-b0d5b5527f83} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 2 tab
+   4940    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -parentBuildID 20250303231545 -prefsHandle 0 -prefsLen 33662 -prefMapHandle 1 -prefMapSize 264340 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {a8ef1392-9ea8-4ce4-a07c-9f6ad4735dc1} -parentPid 4696 -crashReporter 5 -appDir /snap/firefox/5836/usr/lib/firefox/browser 3 rdd
+   5104    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 42075 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {dc99e0fe-f4df-4031-b831-11581222cec7} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 4 tab
+   5291    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -parentBuildID 20250303231545 -sandboxingKind 0 -prefsHandle 0 -prefsLen 42185 -prefMapHandle 1 -prefMapSize 264340 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {e9c9bca3-b772-4d81-a122-202570f1789a} -parentPid 4696 -crashReporter 5 -appDir /snap/firefox/5836/usr/lib/firefox/browser 6 utility
+   5311    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38473 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a5b1e4fa-6648-408d-b0ce-f75546c0fdbe} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 9 tab
+   5380    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38611 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {7d8d2b73-a7bf-49f2-9a36-5ed69eb59ceb} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 10 tab
+   5409    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38611 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5b5aece3-4cca-494c-8928-e6e3bacc32d1} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 11 tab
+   5449    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38611 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {fb424466-902a-4789-8990-089993672f51} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 12 tab
+   5488    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38611 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c2f0dd9e-c1bf-4b6f-b6d4-9567707a6468} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 13 tab
+   5707    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38780 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b589049-db05-4ac9-983f-267ba5e46df9} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 15 tab
+   5868       2 root     [kworker/15:0-mm_percpu_wq]
+   5925    1810 hamid    /snap/code/187/usr/share/code/code --no-sandbox --force-user-env
+   5927    5925 hamid    /snap/code/187/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+   5928    5925 hamid    /snap/code/187/usr/share/code/code --type=zygote --no-sandbox
+   5946    1810 hamid    /snap/code/187/usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/hamid/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=9a395ec5-7db2-4709-b1df-dccb6d9f9e09&iid=9a395ec5-7db2-4709-b1df-dccb6d9f9e09&sid=9a395ec5-7db2-4709-b1df-dccb6d9f9e09 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.98.2 --annotation=lsb-release=Ubuntu 22.04.5 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=34.2.0 --initial-client-fd=44 --shared-client-connection
+   6007    5925 hamid    /snap/code/187/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=5946 --enable-crash-reporter=f90219cb-3e60-4783-b608-494001f9f9ac,no_channel --user-data-dir=/home/hamid/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9964181113482045558,1581018002399007182,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+   6019    5928 hamid    /snap/code/187/usr/share/code/code --type=renderer --crashpad-handler-pid=5946 --enable-crash-reporter=f90219cb-3e60-4783-b608-494001f9f9ac,no_channel --user-data-dir=/home/hamid/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/snap/code/187/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --no-sandbox --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1742509499082810 --launch-time-ticks=717843500 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9964181113482045558,1581018002399007182,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:339d88a0-0d4e-4586-b733-74f7a5e24d62
+   6042       2 root     [kworker/5:2-mm_percpu_wq]
+   6055    5925 hamid    /snap/code/187/usr/share/code/code --type=gpu-process --disable-gpu-sandbox --no-sandbox --crashpad-handler-pid=5946 --enable-crash-reporter=f90219cb-3e60-4783-b608-494001f9f9ac,no_channel --user-data-dir=/home/hamid/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,9964181113482045558,1581018002399007182,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+   6090    5925 hamid    /snap/code/187/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=5946 --enable-crash-reporter=f90219cb-3e60-4783-b608-494001f9f9ac,no_channel --user-data-dir=/home/hamid/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9964181113482045558,1581018002399007182,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+   6176    1810 hamid    /snap/code/187/usr/share/code/code /home/hamid/.vscode/extensions/ms-vscode-remote.remote-ssh-0.118.0/out/localServer.js {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-b9a253044d115472a69cb00feeb774a4bb791932.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","35911","-o","ConnectTimeout=15","lula.cs.ualberta.ca"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/hamid/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-e73af7c3-ddc367ed5c8936efe395cffeec279b04ffd7db78-0.118.0-es/data.json"}
+   6184    6176 hamid    ssh -v -T -D 35911 -o ConnectTimeout=15 lula.cs.ualberta.ca
+   6193    1845 hamid    /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+   6398    5928 hamid    /snap/code/187/usr/share/code/code --type=renderer --crashpad-handler-pid=5946 --enable-crash-reporter=f90219cb-3e60-4783-b608-494001f9f9ac,no_channel --user-data-dir=/home/hamid/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/snap/code/187/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --no-sandbox --disable-gpu-compositing --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1742509499082810 --launch-time-ticks=1110410675 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9964181113482045558,1581018002399007182,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:9348e8e1-cb17-4096-adf4-f80151c90baa
+   6468       2 root     [kworker/12:0-mm_percpu_wq]
+   6471    5925 hamid    /snap/code/187/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=5946 --enable-crash-reporter=f90219cb-3e60-4783-b608-494001f9f9ac,no_channel --user-data-dir=/home/hamid/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9964181113482045558,1581018002399007182,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+   6476    5925 hamid    /snap/code/187/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --no-sandbox --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=5946 --enable-crash-reporter=f90219cb-3e60-4783-b608-494001f9f9ac,no_channel --user-data-dir=/home/hamid/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9964181113482045558,1581018002399007182,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+   6524    6476 hamid    /home/hamid/.vscode/extensions/ms-vscode.cpptools-1.23.6-linux-x64/bin/cpptools
+   6530    5925 hamid    /snap/code/187/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=5946 --enable-crash-reporter=f90219cb-3e60-4783-b608-494001f9f9ac,no_channel --user-data-dir=/home/hamid/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9964181113482045558,1581018002399007182,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+   6569    6471 hamid    /usr/bin/bash --init-file /snap/code/187/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+   6573    6471 hamid    /usr/bin/bash --init-file /snap/code/187/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+   6667    1810 hamid    /home/hamid/.vscode/extensions/ms-vscode.cpptools-1.23.6-linux-x64/bin/cpptools-srv 6524 {1025928A-B609-4D85-A993-BB46F9AE3DEC}
+   6844    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38780 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {87eedfda-66ad-420a-911e-adbca3c31e53} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 17 tab
+   6923    5925 hamid    /snap/code/187/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --no-sandbox --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=5946 --enable-crash-reporter=f90219cb-3e60-4783-b608-494001f9f9ac,no_channel --user-data-dir=/home/hamid/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9964181113482045558,1581018002399007182,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+   6939    5925 hamid    /snap/code/187/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=5946 --enable-crash-reporter=f90219cb-3e60-4783-b608-494001f9f9ac,no_channel --user-data-dir=/home/hamid/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9964181113482045558,1581018002399007182,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+   7033    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38780 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {793fadaf-6fb8-4398-8870-92c525b31f6e} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 19 tab
+   7214       2 root     [kworker/8:2-cgroup_destroy]
+   7285       2 root     [kworker/u32:1-ext4-rsv-conversion]
+   7556       2 root     [kworker/u32:2-flush-259:0]
+   7577    1810 hamid    /usr/bin/nautilus --gapplication-service
+   7605    1810 hamid    /usr/libexec/gnome-terminal-server
+   7626    7605 hamid    bash
+   7666       2 root     [kworker/u33:0-rb_allocator]
+   7680       2 root     [kworker/0:0]
+   7784    1810 hamid    /usr/bin/speech-dispatcher -s -t 0
+   7795    7784 hamid    [sd_espeak-ng-mb] <defunct>
+   7798    7784 hamid    /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+   7810    7784 hamid    /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+   7824       2 root     [kworker/1:2-mm_percpu_wq]
+   7825    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38829 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5efc8c26-5632-4680-aac3-2c82fc1f3e1e} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 24 tab
+   8212       2 root     [kworker/u32:3-events_unbound]
+   8445       2 root     [kworker/u33:3-rb_allocator]
+   8458       2 root     [kworker/7:2-events]
+   8459       2 root     [kworker/12:1-events]
+   8523       2 root     [kworker/4:2-events]
+   8524       2 root     [kworker/11:1-events]
+   8582       2 root     [kworker/9:0-events]
+   8606       2 root     [kworker/3:1-events]
+   8607       2 root     [kworker/13:0-mm_percpu_wq]
+   8624       2 root     [kworker/6:1-events]
+   8738       2 root     [kworker/10:1]
+   8813       2 root     [kworker/0:2-events]
+   8822       2 root     [kworker/14:0-mm_percpu_wq]
+   8825    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38973 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {7b74f983-fdc6-44ca-a268-5cf8f80d846c} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 32 tab
+   8946       2 root     [kworker/8:1-mm_percpu_wq]
+   9066       2 root     [kworker/5:0-events]
+   9165    1810 hamid    /home/hamid/.vscode/extensions/ms-vscode.cpptools-1.23.6-linux-x64/bin/cpptools-srv 6524 {0BEAB4B4-0C9E-4C1E-821C-E34FA02E873E}
+   9184       2 root     [kworker/11:0-mm_percpu_wq]
+   9185       2 root     [kworker/13:1-inet_frag_wq]
+   9224    1810 hamid    /home/hamid/.vscode/extensions/ms-vscode.cpptools-1.23.6-linux-x64/bin/cpptools-srv 6524 {06DCCF1B-5A64-4194-8DA4-0ED1D3E2B1A2}
+   9251       2 root     [kworker/9:1-cgroup_destroy]
+   9252       2 root     [kworker/6:0-cgroup_destroy]
+   9263    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38973 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {648e728b-19ab-47cf-9c43-9652b90932a9} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 38 tab
+   9330       2 root     [kworker/u32:0-flush-259:0]
+   9343       2 root     [kworker/15:1-events]
+   9353    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38973 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9490d855-809e-4165-9597-74b2062f5d04} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 39 tab
+   9486       2 root     [kworker/u33:1-rb_allocator]
+   9533    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38973 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {948ecb26-3fb3-4037-aab6-8a2f6a527ef2} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 40 tab
+   9646       2 root     [kworker/R-tls-s]
+   9670       2 root     [kworker/8:0-mm_percpu_wq]
+   9735       2 root     [kworker/6:2]
+   9750       2 root     [kworker/u32:4-events_power_efficient]
+   9859    4696 hamid    /snap/firefox/5836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38973 -prefMapHandle 1 -prefMapSize 264340 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250303231545 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {712d25e2-4446-48fa-bea3-276f22c15066} -parentPid 4696 -crashReporter 6 -greomni /snap/firefox/5836/usr/lib/firefox/omni.ja -appomni /snap/firefox/5836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5836/usr/lib/firefox/browser 41 tab
+   9910       2 root     [kworker/u33:2-rb_allocator]
+   9961    6569 hamid    ps -eo pid=,ppid=,user=,args=
