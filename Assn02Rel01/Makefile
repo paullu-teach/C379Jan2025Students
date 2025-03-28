@@ -15,9 +15,9 @@ PORT4 = 8083
 
 # Set these paths and use testssh/Test00
 SSH_PATH = /usr/bin/ssh
-REMOTE_AGENT = /home/ubuntu/Assn02Rel01/remoteagent
-INPUT1 = /home/ubuntu/Assn02Rel01/commoninput/input01.txt
-INPUT2 = /home/ubuntu/Assn02Rel01/commoninput/input02.txt
+REMOTE_AGENT = /home/ubuntu/assn02/remoteagent
+INPUT1 = /home/ubuntu/assn02/commoninput/input01.txt
+INPUT2 = /home/ubuntu/assn02/commoninput/input02.txt
 
 all: testnow
 
