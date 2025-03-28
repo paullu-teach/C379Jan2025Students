@@ -23,7 +23,6 @@ all: testnow
 
 # Test00:  Not for marks, but make sure this test works first.
 #	Basic tests of SSH functionality and pathnames to files
-#	M
 testssh:
 	@echo "************** Testing basic SSH functionality..."
 	ls -l $(SSH_PATH)
