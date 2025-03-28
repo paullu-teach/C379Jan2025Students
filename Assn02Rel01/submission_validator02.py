@@ -14,7 +14,7 @@ import argparse
 conf = {
     "submission_name": "assn02",
     "specified_files_c": [ "assn02/distpsnotify.c", "assn02/remoteagent.c", "assn02/Makefile"],
-    "specified_files_cc": [ "assn02/psnotify.cc", "assn02/remoteagent.cc", "assn02/Makefile"],
+    "specified_files_cc": [ "assn02/distpsnotify.cc", "assn02/remoteagent.cc", "assn02/Makefile"],
     "assignment_version": "Assignment #2 2025",
 }
 
