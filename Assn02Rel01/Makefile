@@ -95,4 +95,4 @@ clean:
 	-rm output*txt
 
 tar:
-	(cd ..; tar cvfz ~/assn02c379.tar.gz Assn02Rel01)
+	(cd ..; tar cvfz ~/assn02c379.tar.gz Assn02/Makefile Assn02/distpsnotify.* Assn02/remoteagent.*)
