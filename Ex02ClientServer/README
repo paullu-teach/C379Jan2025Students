@@ -1,0 +1,47 @@
+This is an extended/modified version of Jake's example from the March 24 lab,
+by Paul Lu.  Compare the examples to learn more details.
+
+New features:
+
+1.  Look for comments like "// Paul" for the key changes.
+
+2.  New code increases the buffer sizes to 1024 characters.
+
+3.  New code has client and server *exchanging* messages.
+
+	Jake's original code works for messages from client to server.
+	Jake's code was a great starting point.
+	This example shows the exchange of messages, as the next step.
+
+4.  New code uses "fixed-sized messages" of 1024 characters.
+
+	See the use of "sizeof(buffer)".
+
+	Fixed-sized messages are a simple, but inefficient way to
+	handle variable-length messages.  Messages are padded out
+	to the 1024 length, which is kind of wasteful.  But, it is
+	good enough for Assignment #2.  In real life, more efficient
+	message formats would be used, but we are keeping things
+	simpler for now.
+
+5.  New code uses the bash-specific Other comments and hints #6 from
+	the assignment description.
+
+	If bash is not your default shell, you will have to figure out
+	all of the right commands/elements for your shell.
+
+6.  New code runs on Ubuntu, with bash, with "make run".
+
+	Be sure to modify the Makefile the proper hostname and paths
+	to the client.
+
+7.  New code has a new way to run:  You can start the server and client
+	separately, without needing ssh to work (yet).  Port 8000 is treated
+	as a special case.
+
+	This allows easier debugging of the client and server, without
+	having to (simultaneously) debug ssh and shells.
+
+	Do: make runserveronly
+
+	Then:  make runclient
